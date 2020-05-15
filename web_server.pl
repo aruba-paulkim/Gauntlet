@@ -354,6 +354,7 @@ sub print_header(){
 		<html>
 		<head>
 		<script>
+		setTimeout(function(){ location.reload(); },1000);
 		\$('#hoverMe').hover(function () {
 				\$('#tooltip').fadeIn();
 				}, function () {
